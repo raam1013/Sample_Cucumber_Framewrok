@@ -61,7 +61,7 @@ public class Steps {
 		//String browserName=System.getenv("Browsers");
 		
 	    if (Browsers.equals("Chrome")) {
-	        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+	        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
 	        driver=new ChromeDriver();
 	        Reporter.addStepLog("Chrome Browser Successfully Opened");
 	        driver.manage().window().maximize();
